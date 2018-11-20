@@ -22,16 +22,29 @@
   </nav>
 
   <div class="container">
-    <h2>Accessability</h2>
-    <p>Central to accessible websites is a solid information structure and rich navigation elements. Navigation elements allow users using screen readers to "choose whatever way of finding pages is easiest for them. Users with low vision may find using search easier than navigating through a large menu. Users with cognitive impairments may prefer a table of contents or site map over clicking through many pages.”</p>
-    <p>Several ways to improve your site’s navigation:
-    “It is preferable to use the HTML5 nav element to define a navigation landmark. If the HTML5 nav element technique is not being used, use a role="navigation" attribute to define a navigation landmark. Using the nav element will automatically communicate a section has a role of navigation. Developers should always prefer using the correct semantic HTML element over using ARIA.”</p>
+    <h2>Web Accessibility</h2>
+      <p><strong><q>The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.</q></strong></p>
 
-    <p>Breadcrumb Navigation</p>
+      <p>Central to accessible websites is a solid information structure and rich navigation elements. Navigation elements allow users using screen readers to <q>choose whatever way of finding pages is easiest for them. Users with low vision may find using search easier than navigating through a large menu. Users with cognitive impairments may prefer a table of contents or site map over clicking through many pages.</q></p>
 
-    <p>“Accessible Rich Internet Applications (ARIA) is a set of attributes that define ways to make Web content and Web applications (especially those developed with JavaScript) more accessible to people with disabilities.”<br>
-    “It supplements HTML so that interactions and widgets commonly used in applications can be passed to Assistive Technologies when there is not otherwise a mechanism. For example, ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more.”</p>
-  </div>
+      <h3>ARIA and Accessibility</h3>
+        <p>A precursor to HTML5 and the nav tag was ARIA. ARIA, or <q>Accessible Rich Internet Applications, is a set of attributes that define ways to make Web content and Web applications more accessible to people with disabilities</q>().<p>
+
+        <p>ARIA supplements HTML so that interactions and widgets commonly used in applications be interpreted by accessible technologies. <q>For example, ARIA enables accessible navigation landmarks in HTML4, JavaScript widgets, form hints and error messages, live content updates, and more”</q> ().</p>
+
+        <p>Navigation in ARIA is defined by navigation landmark roles. The ARIA navigation role works much like the modern nav tag, by providing <q>a way to identify the organization and structure of a web page.</q> By using the navigation roles to classify and label sections of a page, <q>structural information is conveyed visually through layout is represented programmatically.</q> These structural cues allow screen readers to <q>provide keyboard navigation to important sections of a page.</q></p>
+
+      <h3>Nav and Accessibility</h3>
+        <p>However, many of the supplemental mechanics of ARIA were incorporated into HTML5, including the nav tag.</p>
+
+        <p>As mentioned above, the nav tag works in much the same way as ARIA navigation roles - it marks content contained within the tag as navigational elements. <q>Browsers, such as screen readers for disabled users, can use the nav tag to determine whether to omit the initial rendering of this content.</q></p>
+
+        <p>The nav tag has the advantage over using ARIA supplemental roles in that <q>Using the nav [tag] will automatically communicate a section has a role of navigation.</q> The labeling benefits of ARIA navigation roles are embedded in the nav tag.</p>
+
+        <p>It is advised by accessibility experts that developers use the HTML element over using ARIA attributes ().</p>
+
+      <h3>Ways to improve your site’s navigation for accessibility:</h3>
+
 
 </body>
 

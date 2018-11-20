@@ -24,14 +24,20 @@
 
   <div class="container">
     <h2>nav Element</h2>
-    <p>It is a block level HTML element that is “used to define a block of navigation links, either within the current document or to other documents. Examples of navigation blocks are menus, tables of contents, and indexes.”
-“It's not necessary for all links to be contained in a nav element. nav is intended only for major block of navigation links; typically the footer element often has a list of links that don't need to be in a nav element.”
-“A document may have several nav elements, for example, one for site navigation and one for intra-page navigation. aria-labelledby can be used in such case to promote accessibility, see example.”
-“User agents, such as screen readers targeting disabled users, can use this element to determine whether to omit the initial rendering of navigation-only content.”
-</p>
+    <p>The nav tag was first introduced in HTML5. It is a block level element that is <q>used to define a block of navigation links, either within the current document or to other documents. Examples of navigation blocks are menus, tables of contents, and indexes</q> ().</p>
 
-  </div>
+    <p>Any links can be contained with a nav tag, but it is really only intended for major block of navigation links (). Typically, you will find nav tags in navigation bars at the top of a web page. However, the nav tag is not placed in the footer tag <q>defining links in the footer of the website</q> ().</p>
 
-</body>
+    <h3>How to use a nav tag</h3>
+
+      <p>Before HTML5 introduced the nav tag, you would generally markup your content with a div:</p>
+        <img src= "Images/div_example.png" alt="div tag use code example" style="width:800px;height:250px;">
+
+      <p>Now nav tags essentially replace div tags in specific contexts mentioned above. Below is an example of the nav tag in action:</p>
+      <img src= "Images/nav_example.png" alt="nav tag use code example" style="width:800px;height:250px;">
+
+    <p>Though the implementation of the nav tag may seem simple, there is no bonafide consensus of its use. More than that, use of the nav tag in your markup has huge implications for users who rely on accessibility technologies like screen readers. <q>User agents, such as screen readers targeting disabled users, can use this element to determine whether to omit the initial rendering of navigation-only content</q> ().</p>
+
+    <p>So It is critical that you consider what information is contained within your nav tags.</p>
 
 </html>
