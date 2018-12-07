@@ -49,6 +49,16 @@ font-weight: 400;
 margin-right: 25px;
 margin-left: 0px;
 }
+ul{
+font-family: Verdana, sans-serif;
+font-size: 16px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+margin-right: 25px;
+margin-left: 0px;
+}
 h2, h3 {
   color: #cc1e1e;
   font-family: Courier;
@@ -79,4 +89,15 @@ h1 {
 .topnav a.active {
     background-color: #cc1e1e;
     color: white;
+}
+figcaption {
+display: block;
+font-family: Verdana, sans-serif;
+font-size: 14px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #A9A9A9;
+font-weight: 400;
+margin-right: 25px;
+margin-left: 0px;
 }
