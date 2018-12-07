@@ -6,6 +6,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+figure {
+  margin: 0px;
+  padding: 0px;
+}
 a:link {
     text-decoration: none;
 }
@@ -89,6 +93,12 @@ h1 {
 .topnav a.active {
     background-color: #cc1e1e;
     color: white;
+}
+.caption a {
+  color: #66a3ff
+}
+.caption a:hover {
+    color: 	#D3D3D3;
 }
 figcaption {
 display: block;
